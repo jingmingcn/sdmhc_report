@@ -3,11 +3,12 @@ project:
 
 book:
   title: "sdmhc_report"
-  author: "Norah Jones"
+  author: "MJ"
   date: "9/11/2023"
   chapters:
     - index.qmd
     - intro.qmd
+    - dataset.qmd
     - summary.qmd
     - references.qmd
 
@@ -18,6 +19,8 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+  # docx:
+  #   title: "Report"
 
 
 
